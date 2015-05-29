@@ -19,7 +19,6 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         titleLabel.text = selectedProduct?.name
-        fullImageView.image = selectedProduct?.fullImage
         detailTextView.text = selectedProduct?.detailText
     }
 
